@@ -1,7 +1,8 @@
 <scheme name="MyTheme" version="142" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.0" />
+  <option name="FONT_SCALE" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="16" />
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Consolas" />
   <colors>
     <option name="CARET_COLOR" value="f8f8f0" />
@@ -384,7 +385,6 @@
         <option name="FOREGROUND" value="75715e" />
       </value>
     </option>
-    <option name="DEFAULT_COMMA" baseAttributes="TEXT" />
     <option name="DEFAULT_CONSTANT" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_DOC_COMMENT">
       <value>
@@ -422,7 +422,7 @@
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
-    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="DEFAULT_INSTANCE_FIELD" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
@@ -468,7 +468,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="DEFAULT_SEMICOLON" baseAttributes="TEXT" />
     <option name="DEFAULT_STATIC_FIELD">
       <value>
         <option name="FONT_TYPE" value="2" />
