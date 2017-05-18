@@ -7,9 +7,4 @@
     <option name="ALIGN_KEY_VALUE_PAIRS" value="true" />
     <option name="ALIGN_ASSIGNMENTS" value="true" />
   </PHPCodeStyleSettings>
-  <codeStyleSettings language="HTML">
-    <indentOptions>
-      <option name="USE_TAB_CHARACTER" value="true" />
-    </indentOptions>
-  </codeStyleSettings>
 </code_scheme>
