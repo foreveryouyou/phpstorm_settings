@@ -254,7 +254,7 @@
             <configuration_option name="error_reporting" value="32767" />
             <configuration_option name="exit_on_timeout" value="0" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="C:\php\ext" />
+            <configuration_option name="extension_dir" value="ext" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -288,6 +288,28 @@
             <configuration_option name="mcrypt.algorithms_dir" value="" />
             <configuration_option name="mcrypt.modes_dir" value="" />
             <configuration_option name="memory_limit" value="128M" />
+            <configuration_option name="mysql.allow_local_infile" value="1" />
+            <configuration_option name="mysql.allow_persistent" value="1" />
+            <configuration_option name="mysql.connect_timeout" value="60" />
+            <configuration_option name="mysql.default_host" value="" />
+            <configuration_option name="mysql.default_password" value="" />
+            <configuration_option name="mysql.default_port" value="" />
+            <configuration_option name="mysql.default_socket" value="" />
+            <configuration_option name="mysql.default_user" value="" />
+            <configuration_option name="mysql.max_links" value="-1" />
+            <configuration_option name="mysql.max_persistent" value="-1" />
+            <configuration_option name="mysql.trace_mode" value="" />
+            <configuration_option name="mysqli.allow_local_infile" value="1" />
+            <configuration_option name="mysqli.allow_persistent" value="1" />
+            <configuration_option name="mysqli.default_host" value="" />
+            <configuration_option name="mysqli.default_port" value="3306" />
+            <configuration_option name="mysqli.default_pw" value="" />
+            <configuration_option name="mysqli.default_socket" value="" />
+            <configuration_option name="mysqli.default_user" value="" />
+            <configuration_option name="mysqli.max_links" value="-1" />
+            <configuration_option name="mysqli.max_persistent" value="-1" />
+            <configuration_option name="mysqli.reconnect" value="" />
+            <configuration_option name="mysqli.rollback_on_cached_plink" value="0" />
             <configuration_option name="mysqlnd.collect_memory_statistics" value="1" />
             <configuration_option name="mysqlnd.collect_statistics" value="1" />
             <configuration_option name="mysqlnd.debug" value="" />
@@ -406,9 +428,12 @@
             <extension name="libxml" />
             <extension name="mcrypt" />
             <extension name="mhash" />
+            <extension name="mysql" />
+            <extension name="mysqli" />
             <extension name="mysqlnd" />
             <extension name="odbc" />
             <extension name="pcre" />
+            <extension name="pdo_mysql" />
             <extension name="session" />
             <extension name="standard" />
             <extension name="tokenizer" />
