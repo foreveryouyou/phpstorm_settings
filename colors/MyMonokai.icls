@@ -1,9 +1,16 @@
-<scheme name="MyTheme" version="142" parent_scheme="Default">
+<scheme name="MyMonokai" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="created">2017-03-28T11:44:16</property>
+    <property name="ide">PhpStorm</property>
+    <property name="ideVersion">2016.2.0.0</property>
+    <property name="modified">2017-11-14T12:01:41</property>
+    <property name="originalScheme">Monokai</property>
+  </metaInfo>
   <option name="EDITOR_FONT_SIZE" value="16" />
+  <option name="EDITOR_FONT_NAME" value="Consolas" />
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
   <option name="CONSOLE_FONT_SIZE" value="12" />
-  <option name="EDITOR_FONT_NAME" value="Consolas" />
   <colors>
     <option name="CARET_COLOR" value="f8f8f0" />
     <option name="CARET_ROW_COLOR" value="3e3d32" />
@@ -756,6 +763,16 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="JADE_FILE_PATH">
+      <value>
+        <option name="FOREGROUND" value="e6db74" />
+      </value>
+    </option>
+    <option name="JADE_STATEMENTS">
+      <value>
+        <option name="FOREGROUND" value="f92672" />
+      </value>
+    </option>
     <option name="JAVA_BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="75715e" />
@@ -1339,6 +1356,40 @@
     <option name="SLIM_TAG_ATTR_KEY">
       <value>
         <option name="FOREGROUND" value="a6e22e" />
+      </value>
+    </option>
+    <option name="SPY-JS.EXCEPTION">
+      <value>
+        <option name="BACKGROUND" value="713f3f" />
+        <option name="EFFECT_COLOR" value="f8f8f2" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="SPY-JS.FUNCTION_SCOPE">
+      <value>
+        <option name="BACKGROUND" value="2e2e1f" />
+        <option name="EFFECT_COLOR" value="f8f8f2" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="SPY-JS.PATH_LEVEL_ONE">
+      <value>
+        <option name="BACKGROUND" value="264226" />
+        <option name="EFFECT_COLOR" value="f8f8f2" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="SPY-JS.PATH_LEVEL_TWO">
+      <value>
+        <option name="EFFECT_COLOR" value="f8f8f2" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="SPY-JS.PROGRAM_SCOPE">
+      <value>
+        <option name="BACKGROUND" value="2b2b2b" />
+        <option name="EFFECT_COLOR" value="f8f8f2" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">
