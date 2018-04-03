@@ -5,6 +5,7 @@
       <mapping pattern="read" type="PLAIN_TEXT" />
       <mapping pattern="555" type="PLAIN_TEXT" />
       <mapping pattern="ChangeLog" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
